@@ -10,4 +10,6 @@ iron:router
 nemo64:bootstrap
 ian:accounts-ui-bootstrap-3
 pcuci:bootcards
+coffeescript
+mquandalle:jade
 
