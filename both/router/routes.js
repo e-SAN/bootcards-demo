@@ -7,4 +7,4 @@ Router.configure({
   notFoundTemplate: 'NotFound'
 });
 
-Router.route('/', {name: 'home'});
+Router.map( function(){('/', {name: 'home'})});
