@@ -1,21 +1,7 @@
-template(name='mediacard')
+template(name='mediaCard')
   .panel.panel-default.bootcards-media
     .panel-heading
       h3.panel-title Media Card Heading
-    .panel-body
-      | Media card description lorem ipsum dolor est compendium
+    +mediaBody
     img.img-responsive(src='http://www.teamstudio.com/Portals/218295/images/istock_000001242290small.jpg')
-    .panel-footer
-      .btn-group.btn-group-justified
-        .btn-group
-          button.btn.btn-default
-            i.fa.fa-arrow-down
-            |                   Download
-        .btn-group
-          button.btn.btn-default
-            i.fa.fa-star
-            |                   Favorite
-        .btn-group
-          button.btn.btn-default
-            i.fa.fa-envelope
-            |                   Email
+    +mediaFooter
